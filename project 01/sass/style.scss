@@ -6,3 +6,91 @@
 
 // FUNCTIONS CSS FILE
 @import './functions';
+
+.container {
+  position: relative;
+  background-color: grey;
+  height: 50px;
+
+  .mobile-tools {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 20px;
+    height: 100%;
+    width: 50px;
+    z-index: 10;
+    cursor: pointer;
+
+    #close {
+      display: none;
+    }
+
+    i {
+      font-size: 2.5rem;
+      cursor: pointer;
+    }
+  }
+
+  nav {
+    height: 100%;
+
+    ul {
+      height: 100%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      position: relative;
+      right: 20px;
+
+      li {
+        margin: 0px 10px;
+      }
+    }
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    .content-2 {
+      height: 80vh;
+      width: 80vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 5rem;
+      background-color: #ccc;
+      padding: 20px;
+      color: #000;
+    }
+  }
+
+  .lightbox {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(227, 170, 64, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    flex-direction: column;
+
+    p {
+      width: 400px;
+      display: flex;
+      justify-content: center;
+      margin: 20px 0px;
+      font-size: 2.5rem;
+      color: blue;
+    }
+
+    > div {
+      width: 100px;
+      margin: 10px 0px;
+    }
+  }
+}

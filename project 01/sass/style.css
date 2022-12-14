@@ -67,4 +67,82 @@ input {
 
 .clear-fix {
   clear: both;
+}
+
+.container {
+  position: relative;
+  background-color: grey;
+  height: 50px;
+}
+.container .mobile-tools {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 20px;
+  height: 100%;
+  width: 50px;
+  z-index: 10;
+  cursor: pointer;
+}
+.container .mobile-tools #close {
+  display: none;
+}
+.container .mobile-tools i {
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+.container nav {
+  height: 100%;
+}
+.container nav ul {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  right: 20px;
+}
+.container nav ul li {
+  margin: 0px 10px;
+}
+.container .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.container .content .content-2 {
+  height: 80vh;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  background-color: #ccc;
+  padding: 20px;
+  color: #000;
+}
+.container .lightbox {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(227, 170, 64, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  flex-direction: column;
+}
+.container .lightbox p {
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+  font-size: 2.5rem;
+  color: blue;
+}
+.container .lightbox > div {
+  width: 100px;
+  margin: 10px 0px;
 }/*# sourceMappingURL=style.css.map */
