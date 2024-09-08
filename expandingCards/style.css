@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  height: 90vh;
+}
+
+main > div {
+  margin: 0px 20px;
+  flex: 1;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  min-height: 500px;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.panel.active {
+  flex: 7;
+  transition: all 0.5s ease-in-out;
+  border-radius: 5px;
+}
