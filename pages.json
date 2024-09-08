@@ -1,0 +1,32 @@
+{
+    "pages": [
+        {
+            "id": "expandingCards",
+            "title": "Expanding Cards JS",
+            "pagePath": "./expandingCards/index.html",
+            "imagePath": "./assets/images/expandingCards.png",
+            "description": "This code allows for an interactive expanding cards feature. When a user clicks a card (panel), it expands by adding the 'active' class while removing the 'active' class from the other cards."
+        },
+        {
+            "id": "progressSteps",
+            "title": "Progress Steps",
+            "pagePath": "./expandingCards/index.html",
+            "imagePath": "./expandingCards/assets/images/img1.jpg",
+            "description": "This code allows for an interactive expanding cards feature. When a user clicks a card (panel), it expands by adding the 'active' class while removing the 'active' class from the other cards."
+        },
+        {
+            "id": "rotatingNavigation",
+            "title": "Rotating Navigation",
+            "pagePath": "./expandingCards/index.html",
+            "imagePath": "/expandingCards/assets/images/img2.jpg",
+            "description": "This code allows for an interactive expanding cards feature. When a user clicks a card (panel), it expands by adding the 'active' class while removing the 'active' class from the other cards."
+        },
+        {
+            "id": "hiddenSearchWidget",
+            "title": "Hidden Search Widget",
+            "pagePath": "./expandingCards/index.html",
+            "imagePath": "/expandingCards/assets/images/img3.jpg",
+            "description": "This code allows for an interactive expanding cards feature. When a user clicks a card (panel), it expands by adding the 'active' class while removing the 'active' class from the other cards."
+        }
+    ]
+}
